@@ -7,17 +7,6 @@ html,body{
     background:rgb(43, 42, 42);
 }
 
-.sidenav {
-    float:left;
-
-}
-.name{
-    color:rgb(255, 255, 255);
-    font-size:30px;
-    font-weight:bold;
-    text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 footer {
     clear:both;
     padding:2px;
@@ -31,9 +20,11 @@ a{
     color:aqua;
     text-decoration:none;
 }
+
 a:hover{
-    color:rgb(221, 217, 217);
+    color:rgb(78, 131, 128);
 }
+
 ul{
     list-style-type:none;
     margin:0;
@@ -42,8 +33,16 @@ ul{
     text-align: center;
 
 }
+
 li{
     padding: 40px;
     font-weight: bold;
 }
 
+.name{
+    color:rgb(255, 255, 255);
+    font-size:30px;
+    font-weight:bold;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
