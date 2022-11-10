@@ -11,7 +11,13 @@ html,body{
     float:left;
 
 }
-
+.name{
+    color:rgb(255, 255, 255);
+    font-size:30px;
+    font-weight:bold;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 footer {
     clear:both;
     padding:2px;
@@ -20,5 +26,24 @@ footer {
     background-color:rgb(29, 28, 28);
     color:rgb(255, 255, 255);
     bottom:2em;
+}
+a{
+    color:aqua;
+    text-decoration:none;
+}
+a:hover{
+    color:rgb(221, 217, 217);
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding: 20px;
+    overflow:hidden;
+    text-align: center;
+
+}
+li{
+    padding: 40px;
+    font-weight: bold;
 }
 
