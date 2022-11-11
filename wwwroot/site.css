@@ -50,14 +50,14 @@ li{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.leftContainer{
+.contentContainer{
     float:left;
     align-items: center;
     width: 50%;
     height: 100%;
     flex:auto;
 }
-.contentContainer{
+.navContainer{
     float:right;
     width: 50%;
     height: 100%; 
@@ -68,4 +68,8 @@ img#portrait{
     margin-left:auto;
     margin-right:auto;
     display:block;
+}
+p.bodyText{
+    text-align: center;
+    font-size: 16px;
 }
