@@ -53,13 +53,13 @@ li{
 .contentContainer{
     float:left;
     align-items: center;
-    width: 50%;
+    width: 70%;
     height: 100%;
     flex:auto;
 }
 .navContainer{
     float:right;
-    width: 50%;
+    width: 30%;
     height: 100%; 
     padding-top: 10%;
     padding-bottom: 10%;
