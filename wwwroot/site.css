@@ -20,9 +20,9 @@ footer {
     color:rgb(255, 255, 255);
     margin-top: auto;
     bottom: 1px;
-    border-top:rgb(31, 29, 29) 5px solid;
     position: absolute;
     width: 100%;
+    height:46px;
     box-sizing: border-box;
     position: fixed;
     bottom: 0;
@@ -36,18 +36,6 @@ a:hover{
     color:rgb(99, 102, 102);
 }
 
-ul{
-    list-style-type:none;
-    margin:0;
-    overflow:hidden;
-
-}
-
-li{
-    padding: 40px;
-    font-weight: bold;
-}
-
 p.title{
     color:rgb(255, 255, 255);
     font-size:60px;
@@ -56,19 +44,19 @@ p.title{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.contentContainer{
+.content-container{
     float:left;
     align-items: center;
-    width: 80%;
+    width: 88%;
     height: 100%;
     flex:auto;
+    top: 0;
+    margin-bottom:46px;
 }
-.navContainer{
+.nav-container{
     float:right;
-    width: 17%;
-    height: 100%; 
-    padding-top: 10%;
-    padding-bottom: 10%;
+    width: 12%;
+    height: calc(100% - 15px); 
     text-align: right;
     position: fixed;
     right: 0;
@@ -81,14 +69,31 @@ img#portrait{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
-p.bodyText{
+p.body-text{
     text-align: center;
     font-size: 16px;
     height:30%
 }
-.textContainer{
+.text-container{
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+li.navbar-item{
+    margin-top:5%;
+    margin-bottom:5%;
+    font-size: 20px;
+    font-weight: bold;
+}
+ul.my-nav{
+    list-style-type:none;
+    margin-right:20px;
+    overflow:hidden;
+
+}
+p.footer-text{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: auto;
 }
